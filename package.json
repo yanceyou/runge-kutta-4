@@ -1,15 +1,25 @@
 {
   "name": "runge-kutta-4",
   "version": "1.0.0",
+  "author": {
+    "name": "Ou.Yancey",
+    "email": "ou.yancey@gmail.com"
+  },
   "description": "The fourth order Runge-Kutta integration method",
   "main": "./lib/rungekutta4.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/.git"
+    "url": "git+https://github.com/OuYancey/runge-kutta-4.git"
   },
-  "author": "Ou.Yancey",
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/OuYancey/runge-kutta-4/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "webpack": "^1.13.1"
+  }
 }
