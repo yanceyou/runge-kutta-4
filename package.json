@@ -1,15 +1,27 @@
 {
   "name": "runge-kutta-4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Ou.Yancey",
     "email": "ou.yancey@gmail.com"
   },
   "description": "The fourth order Runge-Kutta integration method",
   "main": "./lib/rungekutta4.js",
+  "files": [
+    "dist/runge-kutta-4.js",
+    "dist/runge-kutta-4.min.js",
+    "lib"
+  ],
   "scripts": {
+    "build": "webpack",
     "test": "jasmine"
   },
+  "keywords": [
+    "RK4",
+    "Runge-Kutta method",
+    "integration",
+    "differential-equations"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OuYancey/runge-kutta-4.git"
