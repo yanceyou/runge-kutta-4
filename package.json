@@ -1,0 +1,15 @@
+{
+  "name": "runge-kutta-4",
+  "version": "1.0.0",
+  "description": "The fourth order Runge-Kutta integration method",
+  "main": "./lib/rungekutta4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/.git"
+  },
+  "author": "Ou.Yancey",
+  "license": "MIT"
+}
