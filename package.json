@@ -1,11 +1,11 @@
 {
   "name": "runge-kutta-4",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Ou.Yancey",
     "email": "ou.yancey@gmail.com"
   },
-  "description": "The fourth order Runge-Kutta integration method",
+  "description": "The fourth order Runge-Kutta integration method.",
   "main": "./lib/rungekutta4.js",
   "files": [
     "dist/runge-kutta-4.js",
