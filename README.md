@@ -45,15 +45,18 @@ var derives = function(x, y) {
 }
 
 var xStart = 0,
-    yStart = [1, 5, 10]
+    yStart = [1, 5, 10],
     h = 0.0001
 
-var rk4 = RungeKutta4(derives, xStart, yStart, h)
+var rk4 = new RungeKutta4(derives, xStart, yStart, h)
 
 console.log(rk4.step())
 // [ 1.0006001300160015, 5.002000350038337, 10.003000450045004 ]
 
 // console.log(rk4.steps(100))
+// [ 1.0613161367179729, 5.2035386394013905, 10.304545339535162 ]
 
-// console.log(rk4.end(0.5))
+// console.log(rk4.end(0.01))
+// [ 1.0613161367179729, 5.2035386394013905, 10.304545339535162 ]
+// same as steps(100), because steps = xEnd / h
 ```
