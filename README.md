@@ -12,8 +12,6 @@ Normal way:
 ```javascript
 <!-- use the min file -->
 <script src="[path]/dist/runge-kutta-4.min.js"></script>
-<!-- or not -->
-<script src="[path]/dist/runge-kutta-4.js"></script>
 ```
 
 Easy with npm:

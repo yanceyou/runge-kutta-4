@@ -6,9 +6,8 @@
     "email": "ou.yancey@gmail.com"
   },
   "description": "The fourth order Runge-Kutta integration method.",
-  "main": "./lib/rungekutta4.js",
+  "main": "./lib/RungeKutta4.js",
   "files": [
-    "dist/runge-kutta-4.js",
     "dist/runge-kutta-4.min.js",
     "lib"
   ],
