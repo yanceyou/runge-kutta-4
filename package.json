@@ -20,6 +20,7 @@
   },
   "keywords": [
     "RK4",
+    "RungeKutta",
     "Runge-Kutta method",
     "integration",
     "differential-equations"
